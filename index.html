@@ -12,26 +12,23 @@
      <div class="jumbotron">
      <form>
         <div class="form-group">
-          <label for="food">Enter your favorite food:</label>
-          <input id="food" type="text">
+          <label for="number1">Enter a number to count to. . .</label>
+          <input id="number1" type="text">
         </div>
-        <div class="form-group">
-          <label for="color">Enter your favorite color:</label>
-          <input id="color" type="text">
-        </div>
-        <div class="form-group">
-          <label for="place">enter your favorite place:</label>
-          <input id="place" type="text">
-        </div>
+        <!-- <div class="form-group">
+          <label for="number1">Enter a number to determine what multiple to use to get there!!!</label>
+          <input id="number2" type="text">
+        </div> -->
+
 
       <button type="submit" class="btn">Submit!</button>
      </form>
-      <div id="list">
-        <h1>You like:</h1>
-        <ul id="demo">
-          <li><span class="food"></span></li>
-          <li><span class="color"></span></li>
-          <li><span class="place"></span></li>
+<input type="button" name="Button1" value="Something" id="id1" onclick="buttonReport(this.id,this.name, this.value)">
+
+      <div id="result">
+        <h1>Your favorite things:</h1>
+        <ul class="result">
+
         </ul>
       </div>
      </div>
